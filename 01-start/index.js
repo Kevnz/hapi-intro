@@ -1,5 +1,7 @@
 const Hapi = require('hapi');
 
+const input = require('./input');
+
 // Create a server with a host and port
 const server = Hapi.server({
   host: 'localhost',
@@ -12,6 +14,7 @@ server.route({
   path: '/hello',
   handler: (request, h) => 'hello world'
 });
+server.route(input);
 
 const start = async () => {
   try {
