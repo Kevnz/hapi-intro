@@ -1,0 +1,21 @@
+{
+  "name": "08-view-engines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "good": "^8.1.0",
+    "good-console": "^7.1.0",
+    "handlebars": "^4.0.11",
+    "hapi": "^17.2.2",
+    "inert": "^5.1.0",
+    "nodemon": "^1.17.2",
+    "pug": "^2.0.1",
+    "vision": "^5.3.1"
+  }
+}

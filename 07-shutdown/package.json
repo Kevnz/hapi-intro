@@ -1,0 +1,16 @@
+{
+  "name": "07-shutdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^17.2.2",
+    "nodemon": "^1.17.2"
+  }
+}

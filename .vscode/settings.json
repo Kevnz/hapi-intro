@@ -1,0 +1,7 @@
+{
+  "prettier.arrowParens": "always",
+  "prettier.singleQuote": true,
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true,
+  "prettier.bracketSpacing": true
+}
